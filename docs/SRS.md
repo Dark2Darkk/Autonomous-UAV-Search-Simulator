@@ -6,7 +6,7 @@
 System shall provide a limited 3D space for simulations.
 
 ### FR-002
-System shall provide an abstract target object (mannequin like figure, box of supplies).
+System shall provide an human target object.
 
 ### FR-003
 System shall provide a search area inside the 3D space.
