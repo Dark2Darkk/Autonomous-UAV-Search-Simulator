@@ -38,7 +38,7 @@ rosdep update
 
 ```bash
 cd ~
-git clone https://github.com/Dark2Darkk/Autonomous-UAV-Search-Simulator.git
+git clone https://github.com/colecoey/Autonomous-UAV-Search-Simulator.git
 cd Autonomous-UAV-Search-Simulator
 ```
 
