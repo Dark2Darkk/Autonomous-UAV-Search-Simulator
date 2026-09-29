@@ -4,7 +4,7 @@ This project is a fully simulated autonomous UAV search system built with ROS 2,
 
 The UAV launches in a custom urban environment, builds a map using lidar, autonomously explores unknown areas, avoids obstacles, and searches for a person using its onboard camera. When a person is detected with high confidence, the mission stops and reports the UAV's position.
 
-The project demonstrate autonomous navigation, mapping, computer vision, ROS 2 integration, and PX4 flight control in a realistic simulation environment.
+The project demonstrates autonomous navigation, mapping, computer vision, ROS 2 integration, and PX4 flight control in a realistic simulation environment.
 
 ## Demo
 
