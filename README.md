@@ -6,7 +6,9 @@ The UAV launches in a custom urban environment, builds a map using lidar, autono
 
 The project demonstrate autonomous navigation, mapping, computer vision, ROS 2 integration, and PX4 flight control in a realistic simulation environment.
 
+## Demo
 
+![Autonomous UAV Search Simulator](docs/images/uav_search_demo.png)
 
 ## Prerequisites
 
