@@ -27,8 +27,8 @@ setup(
     zip_safe=True,
     maintainer='cole',
     maintainer_email='coltoncoey13@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='ROS 2 perception, SLAM, navigation, and mission control for an autonomous UAV search simulator',
+    license='MIT',
     extras_require={
         'test': [
             'pytest',
@@ -36,9 +36,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'nav2_px4_adapter = uav_vision.nav2_px4_adapter:main',
-            'object_detector = uav_vision.object_detector:main',
-            'obstacle_sensor = uav_vision.obstacle_sensor:main',
+            'person_detector = uav_vision.person_detector:main',
+            'mission_controller = uav_vision.mission_controller:main',
         ],
     },
 )

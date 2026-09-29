@@ -1,0 +1,21 @@
+/**:
+  ros__parameters:
+    use_sim_time: true
+
+    robot_base_frame: base_link
+    return_to_init: false
+
+    costmap_topic: /global_costmap/costmap
+    costmap_updates_topic: /global_costmap/costmap_updates
+
+    visualize: true
+
+    planner_frequency: 2.0
+    progress_timeout: 1000.0
+
+    potential_scale: 0.001
+    orientation_scale: 0.0
+    gain_scale: 0.8
+
+    transform_tolerance: 1.0
+    min_frontier_size: 1.1

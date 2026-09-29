@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+
+  <name>uav_flight_mode</name>
+  <version>0.0.1</version>
+
+  <description>
+    PX4 ROS 2 external flight mode for Nav2 UAV control
+  </description>
+
+  <maintainer email="colton@example.com">
+    Colton Coey
+  </maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>eigen3_cmake_module</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>px4_msgs</depend>
+  <depend>px4_ros2_cpp</depend>
+  <depend>eigen</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
